@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         billItem.textContent = `${category}: $${total}`;
         billItemsContainer.appendChild(billItem);
   
-        if (['coned', 'nationalgrid', 'internet', 'water'].includes(category)) {
+        if (['Coned', 'Nationalgrid', 'Internet', 'Water', 'Gas', 'Electricity'].includes(category)) {
           // Divide the total equally among "aunty," "tshokey," and "sonnie"
           const dividedTotal = total / 3;
           addToFooter('aunty', dividedTotal);
