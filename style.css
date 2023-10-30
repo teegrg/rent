@@ -33,7 +33,10 @@ input {
     margin-bottom: 5px;
 }
 
-
+.container__show {
+    padding-left: 25px;
+    padding-top: 25px;
+}
 .footer div {
     padding-bottom: 10px;
 }
