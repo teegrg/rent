@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    height: 350px;
+    border-bottom: 3px solid black;
+}
+
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(138, 159, 159);
+    font-size: xx-large;
+}
+.container__input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 2px dotted black;
+}
+
+.footer div {
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding-top: 25px;
+    margin-left: 35px;
+}
